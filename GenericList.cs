@@ -4,13 +4,7 @@ using System.Text;
 
 namespace Generic
 {
-    public class MijnKlasse<T> : IComparable<T>
-    {
-        public int CompareTo(T other)
-        {
-            throw new NotImplementedException();
-        }
-    }
+
     public class GenericList<T> where T : IComparable
     {
         // Constant Fields
